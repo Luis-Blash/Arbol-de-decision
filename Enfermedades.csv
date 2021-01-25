@@ -1,0 +1,12 @@
+Tos,Mucosidad,Dolor Garganta,Diarrea,Inflamacion,Dolor muscular,Dolor cabeza,Fatiga,Nauseas,Fiebre,Respuesta
+1,1,1,0,1,1,1,1,0,38,Resfriado comun
+0,0,1,0,1,0,0,0,0,37,Faringiti
+0,0,1,0,1,0,0,1,0,38,Influenza
+0,0,1,0,1,0,0,1,0,39,Influenza
+1,1,0,0,0,0,0,0,0,37,Bronquitis
+0,0,0,1,1,0,0,0,1,37,Neumonia
+1,0,1,0,1,0,1,0,0,38,Dolor de garganta
+0,0,0,1,1,1,0,0,1,38,Dolor de estomago
+1,0,1,1,1,1,1,1,1,38,Covid-19
+1,0,1,1,1,1,1,1,1,39,Covid-19
+0,0,0,0,1,0,0,0,1,39,Diarrea
