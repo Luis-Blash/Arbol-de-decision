@@ -1,12 +1,32 @@
-Tos,Mucosidad,Dolor Garganta,Diarrea,Inflamacion,Dolor muscular,Dolor cabeza,Fatiga,Nauseas,Fiebre,Respuesta
-1,1,1,0,1,1,1,1,0,38,Resfriado comun
-0,0,1,0,1,0,0,0,0,37,Faringiti
-0,0,1,0,1,0,0,1,0,38,Influenza
-0,0,1,0,1,0,0,1,0,39,Influenza
-1,1,0,0,0,0,0,0,0,37,Bronquitis
-0,0,0,1,1,0,0,0,1,37,Neumonia
-1,0,1,0,1,0,1,0,0,38,Dolor de garganta
-0,0,0,1,1,1,0,0,1,38,Dolor de estomago
-1,0,1,1,1,1,1,1,1,38,Covid-19
-1,0,1,1,1,1,1,1,1,39,Covid-19
-0,0,0,0,1,0,0,0,1,39,Diarrea
+Tos,Mucosidad,Dolor Garganta,Disnea (Falta de aire),Diarrea,Inflamacion,Dolor muscular,Dolor cabeza,Fatiga,Nauseas,Poliuria (orinar en exceso),Temperatura,Respuesta
+1,1,1,0,0,1,1,1,1,0,0,38,Resfriado comun
+0,0,1,1,0,1,0,0,0,0,0,37,Faringiti
+0,0,1,1,0,1,0,0,1,0,0,38,Influenza
+0,0,1,1,0,1,0,0,1,0,0,39,Influenza
+1,1,0,1,0,0,0,0,0,0,0,37,Bronquitis
+0,0,0,0,1,1,0,0,0,1,0,37,Neumonia
+1,0,1,0,0,1,0,1,0,0,0,38,Dolor de garganta
+0,0,0,0,1,1,1,0,0,1,0,38,Dolor de estomago
+1,0,1,1,1,1,1,1,1,1,0,38,Covid-19
+1,0,1,1,1,1,1,1,1,1,0,39,Covid-19
+0,0,0,0,0,1,0,0,0,1,0,39,Diarrea
+0,0,0,0,1,0,1,1,1,0,0,37,Anemia
+1,1,0,1,0,0,1,0,0,0,0,37,Asma
+0,0,0,1,0,0,0,0,1,0,1,37,Diabetes
+0,0,1,0,1,0,0,1,1,1,0,38,Ebola
+0,0,1,0,1,0,0,1,1,1,0,39,Ebola
+0,0,0,1,0,1,1,0,0,0,0,37,Edema pulmonar
+0,0,0,0,1,1,1,0,1,0,1,37,Colera
+0,0,0,0,0,0,1,0,1,0,0,38,Endocarditis
+0,0,0,0,0,1,1,0,0,1,1,38,Piedras en los riñones
+0,0,0,0,1,0,0,0,1,1,1,38,Infeccion de vejiga
+0,0,0,0,0,1,1,0,0,0,0,37,Espermatocele
+0,0,0,0,0,1,1,0,0,0,1,37,Quistes renales adquiridos
+0,0,0,1,0,1,1,0,1,0,0,37,Hipertension pulmonar
+0,0,0,1,1,0,1,0,1,1,0,37,Dispepsia
+0,0,0,0,0,1,1,0,1,0,0,37,Estreñimiento
+1,0,1,0,0,1,0,0,1,0,0,37,Rinitis
+0,0,0,0,0,1,1,1,1,0,0,38,Paperas
+0,0,0,0,0,1,1,1,1,0,0,39,Paperas
+0,1,0,0,1,1,1,1,1,0,0,39,Sarampion
+0,0,1,0,1,1,0,1,1,1,0,38,Tularemias

@@ -2,8 +2,9 @@ import pandas
 from sklearn import tree
 import pydotplus
 from sklearn.tree import DecisionTreeClassifier
+import os
 
-datos = pandas.read_csv('/app/Enfermedades.csv')
+datos = pandas.read_csv(f"{os.getcwd()}/Enfermedades.csv")
 
 i = 0
 enfermedades = {}
@@ -16,7 +17,9 @@ datos["Respuesta"] = datos["Respuesta"].map(enfermedades)
 caracteristicas = []
 for a in range(len(datos.columns)-1):
     caracteristicas.append(datos.columns[a])
-print(datos)
+
+#print(datos)
+#print(len(enfermedades))
 
 # Dependiente
 x = datos[caracteristicas]
@@ -27,22 +30,21 @@ dtree = DecisionTreeClassifier()
 dtree = dtree.fit(x,y)
 datos = tree.export_graphviz(dtree, out_file=None, feature_names=caracteristicas)
 graph = pydotplus.graph_from_dot_data(datos)
-graph.write_png('/app/im.png')
+graph.write_png(f"{os.getcwd()}/arbol.png")
 
-
-def milista():
-    e = ["Tos","Mucosidad","Dolor de Garganta","Diarrea","Inflamacion",
-    "Dolor muscular","Dolor cabeza","Fatiga","Nauseas","Fiebre"]
+def milista(caracteristicas):
+    aux = 0
     d = []
-    for i in range(10):
-        print(f"Tienes {e[i]}")
-        if( i != 9):
+    for i in caracteristicas:
+        print(f"Tienes {i}")
+        if( aux != len(caracteristicas)-1):
             print("1)Si \n0)No")
         d.append(int(input()))
+        aux += 1
     return d
 
 # Respuesta
-respuesta = dtree.predict([milista()])
+respuesta = dtree.predict([milista(caracteristicas)])
 for k,v in enfermedades.items():
     if(v == respuesta[0]):
         print(f"{k}")
