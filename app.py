@@ -32,6 +32,7 @@ datos = tree.export_graphviz(dtree, out_file=None, feature_names=caracteristicas
 graph = pydotplus.graph_from_dot_data(datos)
 graph.write_png(f"{os.getcwd()}/arbol.png")
 
+"""
 def milista(caracteristicas):
     aux = 0
     d = []
@@ -48,4 +49,4 @@ respuesta = dtree.predict([milista(caracteristicas)])
 for k,v in enfermedades.items():
     if(v == respuesta[0]):
         print(f"{k}")
-
+"""

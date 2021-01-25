@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{%block content%}
+    <h2>Cuestionario</h2>
+    {%if fallo != "-"%}
+        <p>{{fallo}}</p>
+    {%endif%}
+    <form action="/datos" method="POST">
+        {%for p in preguntas%}
+            {%if p != "Temperatura"%}
+                <label>{{p}}</label>
+                <br>
+                <select name="{{p}}" id="">
+                    <option value="1">Si</option>
+                    <option value="0">No</option>
+                </select>
+            {% endif %}
+            <br>
+            {%if p == "Temperatura"%}
+                <input type="text" placeholder="{{p}}" name="{{p}}">
+            {% endif %}
+        {%endfor%}
+        <br>
+        <button type="submit">Mandar</button>
+    </form>
+{%endblock%}

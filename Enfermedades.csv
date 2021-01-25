@@ -30,3 +30,9 @@ Tos,Mucosidad,Dolor Garganta,Disnea (Falta de aire),Diarrea,Inflamacion,Dolor mu
 0,0,0,0,0,1,1,1,1,0,0,39,Paperas
 0,1,0,0,1,1,1,1,1,0,0,39,Sarampion
 0,0,1,0,1,1,0,1,1,1,0,38,Tularemias
+0,0,0,0,0,0,0,1,0,1,0,38,Infección del oído
+1,1,0,0,0,1,0,1,0,0,1,37,Rinitis no alergica
+1,1,0,1,0,1,0,0,1,0,0,37,Enfisema
+0,0,0,0,1,1,1,0,1,1,0,38,Diverticulitis
+0,0,0,0,1,1,1,0,1,1,0,37,Colitis ulcerosa
+0,0,0,0,0,1,0,0,1,0,0,38,Varicela
