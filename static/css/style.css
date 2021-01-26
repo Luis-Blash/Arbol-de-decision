@@ -1,0 +1,57 @@
+.contenedor, .informacion{
+    width: 900px;
+    margin: auto
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    border: solid 1px #ccc;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.seleccionar{
+    padding: 5px;
+    flex-basis: calc(33% - 1rem);
+}
+
+form .texto{
+    margin-top: 15px;
+    flex-basis: 100%;
+    text-align: center;
+}
+.contenedor p{
+    text-align: center;
+    color: white;
+    background-color: rgb(233, 56, 56);
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.informacion{
+    width: 700px;
+    border: solid black 1px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 25px;
+}
+.informacion p{
+    color: black;
+    margin: 0;
+    font-size: 50px;
+}
+
+.informacion p span{
+    color: blue;
+}
+
+.informacion a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: cadetblue;
+}

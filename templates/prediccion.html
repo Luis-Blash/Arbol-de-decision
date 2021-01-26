@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {%block content%}
-    <p>Tu enfermedad es</p>
-    <p>{{ enfermedad }}</p>
+<div class="informacion">
+    <p>Tu enfermedad es <span>{{ enfermedad }}</span></p>
     <a href="{{ url_for('index')}}">regresa</a>
+</div>
 {%endblock%}

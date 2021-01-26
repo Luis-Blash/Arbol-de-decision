@@ -21,9 +21,9 @@ for a in range(len(datos.columns)-1):
 #print(datos)
 #print(len(enfermedades))
 
-# Dependiente
-x = datos[caracteristicas]
 # Independiente
+x = datos[caracteristicas]
+# Dependiente
 y = datos["Respuesta"]
 
 dtree = DecisionTreeClassifier()

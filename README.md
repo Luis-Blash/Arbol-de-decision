@@ -1,6 +1,6 @@
 # Enfermedades Sclearn
 Installar 
-Sudo apt -y install graphviz
+Sudo apt -y update && apt -y install graphviz
 
 docker run --name prueba -v /home/luis/Documentos/pruebas/python:/app -itd -p=5000 python
 

@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 {%block content%}
+<div class="contenedor">
+    <h1>Enfermedades</h1>
     <h2>Cuestionario</h2>
     {%if fallo != "-"%}
         <p>{{fallo}}</p>
@@ -7,19 +9,23 @@
     <form action="/datos" method="POST">
         {%for p in preguntas%}
             {%if p != "Temperatura"%}
+            <div class="seleccionar">
                 <label>{{p}}</label>
-                <br>
                 <select name="{{p}}" id="">
                     <option value="1">Si</option>
                     <option value="0">No</option>
                 </select>
+            </div>
             {% endif %}
-            <br>
             {%if p == "Temperatura"%}
+            <div class="texto">
                 <input type="text" placeholder="{{p}}" name="{{p}}">
+            </div>
             {% endif %}
         {%endfor%}
-        <br>
-        <button type="submit">Mandar</button>
+        <div class="texto">
+            <button type="submit">Mandar</button>
+        </div>
     </form>
+</div>
 {%endblock%}
