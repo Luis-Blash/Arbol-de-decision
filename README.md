@@ -21,8 +21,3 @@ Una interfaz sencilla usando lo que es Flask para poder verlo de manera mas visu
 Dependiendo de las respuestas que desde en el cuestionario te devolvera una enfermedad que tenga en su base.
 <img src="github/respuesta.png" alt="Respuesta">
 <hr>
-
-docker run --name prueba -v /home/luis/Documentos/pruebas/python:/app -itd -p=5000 python
-
-docker exec -it prueba /bin/bash 
-
