@@ -1,7 +1,7 @@
 # Arbol de decisiones simple con scikit-learn
 Una aplicacion sencilla donde puedes crear tu propo arbol de deciones, con este ejemplo con enfermedades de diferentes tipos.
 
-## Insta€llar los requerimientos
+## Instalar los requerimientos
 
 ```python
 pip install -r requirements.txt
