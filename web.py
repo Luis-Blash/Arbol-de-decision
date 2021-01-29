@@ -12,14 +12,15 @@ def index():
 def datos():
 	a = request.form["Temperatura"].isnumeric()
 	if(a):
+		# recibimos los datos del formulario
 		datos = []
 		for i in predicion.caracteristicas:
 			datos.append(request.form[i])
-
+		
+		# Usando el arreglo creado podemos ver que tipo de respuesta es.
 		respuesta = predicion.dtree.predict([datos])
 		for k,v in predicion.enfermedades.items():
 			if(v == respuesta[0]):
-				#print(f"{k}")
 				return render_template("prediccion.html",enfermedad = k)
 	else:
 		return render_template("index.html",fallo = "Temperatura tiene que se numero", preguntas = predicion.caracteristicas)

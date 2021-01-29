@@ -1,7 +1,0 @@
-Secrecion nasal,Estornudos,Congestion nasal,Dolor de garganta,Dolor de cabeza,Tos,Ganglios inflamados,Inchazon en la faringe,Fiebre,Picazon en la garganta,Molestia de pecho,Mucosidad,Dificultad para respirar,Fatiga,Sibilancias,Nauseas,Escalofrios,Cansancio,Conjuntivitis,Perdida del gusto,Perdida del olfato,Presion en el pecho,Incapacidad para hablar,Respuesta
-1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Resfriado Comun
-1,0,0,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Influenza
-0,0,0,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Faringitis
-0,0,0,0,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,Bronquitis
-0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,1,0,0,0,0,0,0,Neumonia
-0,0,0,1,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,1,1,1,Covid
